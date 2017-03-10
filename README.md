@@ -491,8 +491,7 @@ Use the following commands:
 
 ![alt tag](https://raw.githubusercontent.com/ant4g0nist/lisa.py/master/context.png)
 
-
-(As of now, commiting exploitable command. Have to test the remaining code.)
+![alt tag](https://raw.githubusercontent.com/ant4g0nist/lisa.py/master/pbt.png)
 
 You can test lisa.py against CrashWranglers's test cases
 
@@ -501,7 +500,6 @@ You can test lisa.py against CrashWranglers's test cases
 	ant4g0nist$ cp lldbinit ~/.lldbinit
 
 	ant4g0nist$ python test.py
-
 
 Thanks:
 

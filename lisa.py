@@ -3057,7 +3057,8 @@ def backtrace(debugger, command, result, dict):
             print(i)
 
 def __lldb_init_module(debugger, dict):
-
+    
+    debugger.HandleCommand('settings set prompt "(lisa)"')
     debugger.HandleCommand('settings set target.x86-disassembly-flavor intel')
 
     debugger.HandleCommand('command script add --function lisa.stepnInstructions sf')
